@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Genetic</title>
+        <script src="js/jquery-1.11.0.min.js"></script>	
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="js/d3.v3.min.js" type="text/javascript"></script> 
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/main.css?1">
+    </head>
+    <body>
+    	<div id = "pop"></div>
+    	<div id = "ctrl">
+    		<input type = 'button' class = "topbtn" value = 'New set' id = 'go'>
+	    	<div id = "slider"></div>
+	    	<div id = "sliderValue"></div>    			
+
+    		<input type = 'button' class = "topbtn" value = 'Load pattern' id = 'load'>
+    		<input type = 'button' class = "topbtn" value = 'Show lambdoma keyboard' id = 'showkeys'>
+    	</div>
+    	
+    	<div id = "blackout" ></div>
+    	<div id = "loadlist" ></div>
+    	<div id = "savesong" class = "hidden" >
+    		
+    		<span class = 'form'>Your name:</span><input class = 'forminput' id = 'username' type='text' name='username'><br>
+    		<span class = 'form'>Loop name:</span><input type='text' class = 'forminput' id = 'loopname' name='loopname'><br>
+    		<input type='submit' id = 'submitsave' value = 'Save' name='submit'>
+    		<input type='submit' id = 'submitcancel' value = 'Cancel' name='submit'>
+    		
+    	</div>
+    	<div id = "lambdoma" class = "hidden" ></div>
+    	
+    	<script src='js/bufferloader.js'></script>
+    	<script src='js/init.js'></script>
+    	<script src='js/instrumentsTechno.js'></script>
+    	<script src='js/patternsTechno.js'></script>
+    	<script src='js/patternsBreaks.js'></script>
+    	<script src='js/lambdoma.js'></script>
+    	<script src='js/note.js'></script>
+    	<script src='js/bar.js?4'></script>
+    	<script src='js/song.js?4'></script>
+    	<script async src='js/main.js?16'></script>
+		
+    </body>
+</html>

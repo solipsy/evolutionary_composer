@@ -1,0 +1,195 @@
+body, html {
+	background-color: black;
+}
+
+input {
+	color: #0099cc;
+	background: black;
+	border: solid 1px #000066;
+}
+
+#pop {
+	position:absolute;
+	top:10%;
+	left:10%;
+	width:auto;
+	height:auto;
+}
+
+#ctrl {
+    /*  */
+    position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:50px;
+	background-color: #000;
+  }
+  
+#slider {
+	float: left;
+	width: 150px;
+	height: 10px;
+	margin-left : 125px;
+	margin-top:20px;
+}
+
+#sliderValue {
+	float: left;
+	width: 30px;
+	height: 10px;
+	margin-left : 20px;
+	margin-top:17px;
+	color: red;
+}
+
+.bar {
+    clear:both;
+}
+
+.song {
+	margin-top: 50px;
+	clear:both;
+}
+
+.controls {
+	margin-top: 5px;
+	clear:both;
+	height:25px;
+}
+
+.controls span {
+	color: #0099ff;
+}
+
+.note {
+	float:left;
+    width:10px;
+    margin-left:10px;
+}
+
+.population {
+	clear:both;
+}
+
+
+
+.topbtn {
+	margin-top:17px;
+    margin-left: 20px;
+    color:lightblue;
+}
+
+.bassdrum {
+	color:darkblue;
+}
+
+.snare {
+	color:blue;
+}
+
+.hihat {
+	color:lightblue;
+}
+
+.songa {
+	margin-top:10px;
+	height:auto;
+	border: solid 1px #333;
+	border-radius: 5px;
+}
+
+.songafirst {
+	margin-top:0px;
+	height:auto;
+	border: solid 1px #333;
+	border-radius: 5px;	
+}
+
+.playing {
+	float:left;
+}
+
+.modifying {
+	color: #0099cc;
+}
+
+.modification {
+	float:right;
+	color: #0099cc;
+}
+
+#lambdoma {
+	z-index: 10;
+	position:absolute;
+	top: 30%;
+	left:20%;
+	width: 60%;
+	height:60%;
+	background-color:black;
+}
+
+#loadlist {
+	display:none;
+	z-index: 10;
+	position:absolute;
+	top: 20%;
+	left:20%;
+	width: 60%;
+	height:60%;
+	background-color:black;
+	color: white;
+}
+
+.loadresults {
+	position:absolute;
+	top: 20%;
+	left:0%;
+	width:100%;
+	height: 60%;
+	overflow-y: scroll;
+}
+
+#savesong {
+	position:absolute;
+	top: 20%;
+	left: 30%;
+	width:auto;
+	height: auto;	
+	background-color:black;
+	z-index:10;
+}
+
+#blackout {
+	display:none;
+	z-index: 9;
+	position:fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	opacity:0.8;	
+}
+
+.loadrow {float:left;width:100%}
+.id {float:left;margin-left:100px;color:red}
+.username {float:left;margin-left:100px;color:white}
+.loopname {float:left;margin-left:100px;color:green}
+.loadbutton {float:left;margin-left:100px;color:white}
+.header {float:left;height: 50px;bodrer-bottom: solid 1px white;}
+
+.form {float:left;color:white}
+
+.hidden {
+	display:none;
+}
+
+.ui-slider-horizontal {
+	background:black;
+}
+
+.ui-slider .ui-slider-handle{
+	background:black;
+	width: 10px;
+}
